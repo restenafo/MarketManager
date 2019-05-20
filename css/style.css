@@ -1,0 +1,191 @@
+﻿/*   COMMON RULES   */
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+/*  LOGIN PAGE RULES  */
+#form1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxLogin {
+    width: 40%;
+    min-width: 400px;
+    min-height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: rgb(0, 2, 85) 5px 5px 10px;
+    background: rgb(248,255,0);
+    background: linear-gradient(90deg, rgba(248,255,0,1) 0%, rgba(255,196,0,1) 35%, rgba(255,16,0,1) 100%);
+    position: relative;
+    transform: translateY(50%);
+}
+.loginBoxTitle {
+    text-align:center;
+}
+
+.verticalCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*ADMINISTRATION PANEL RULES*/
+
+.boxControlPanel {
+    width: 80%;
+    min-width: 600px;
+    /*min-height: 600px;*/
+    /*border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: rgb(0, 2, 85) 5px 5px 10px;
+    background: rgb(248,255,0);
+    background: linear-gradient(90deg, rgba(248,255,0,1) 0%, rgba(255,196,0,1) 35%, rgba(255,16,0,1) 100%);*/
+    position: relative;
+    transform: translateY(50%);
+}
+
+.verticalCenterControl {
+    /*position: absolute;*/
+    /*top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+}
+
+.pulsante {
+    height: 80px;
+    margin: 30px 20px 32px 20px;
+    width: 250px;
+    box-shadow: rgb(0, 2, 85) 5px 5px 10px;
+}
+
+.btnColorOne {
+    background: #06beb6; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #48b1bf, #06beb6); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DDFFFF, #06beb6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btnColorTwo {
+    background: #7F00FF; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E100FF, #b193d0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btnColorThree {
+    background: #F2994A; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F2C94C, #F2994A); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fbdf70, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btnColorFour {
+    background: #108dc7; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ef8e38, #108dc7); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ef8e38, #108dc7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btnColorFive {
+    background: #FC5C7D; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btnColorSix {
+    background: #3C3B3F; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e4902d, #21c17f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btnColorSeven {
+    background: #74ebd5; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.btnColorEight {
+    background: #6D6027; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D3CBB8, #6D6027); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D3CBB8, #6D6027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btnColorNine {
+    background: #03001e; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.visibile {
+    display:normal;
+}
+
+.invisibile {
+    display:none;
+}
+
+.trasparente {
+    background-color:rgba(0,0,0,0);
+}
+
+/*   EMPLOYERS CONTROL PANEL          */
+
+#formInserimentoUtenti {
+    width: 80%;
+    min-width: 600px;
+    /*min-height: 600px;*/
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: rgb(0, 2, 85) 5px 5px 10px;
+    background: rgb(248,255,0);
+    background: linear-gradient(90deg, rgba(248,255,0,1) 0%, rgba(255,196,0,1) 35%, rgba(255,16,0,1) 100%);
+
+}
+
+#LBLheaderPersonale, #LBLwelcome {
+    font-size:24px;
+    margin-top:50px;
+    color:yellow;
+}
+
+.pulsantePersonale {
+    margin:30px 25px 32px 20px;
+    width: 150px;
+    box-shadow: rgb(0, 2, 85) 5px 5px 10px;
+}
+
+#TXTnomeDipendente,
+#TXTcognomeDipendente,
+#TXTcodiceFiscale,
+#TXTdataDiNascita,
+#TXTluogoDiNascita,
+#TXTnazionalita {
+    margin:auto;
+    margin-top:5px;
+}
+
+
+#titoloInserisciDati {
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#tableListEmployers {
+    background-color: #cccccc;
+    border-radius: 10px;
+    box-shadow: rgb(0, 2, 85) 5px 5px 10px;
+}
+
+tr {
+    text-align:center;
+}
+
+td {
+    padding:0px 20px 0px 20px; 
+
+}
+
+.ombraPulsante {
+    box-shadow: rgb(0, 2, 85) 5px 5px 10px;
+}
